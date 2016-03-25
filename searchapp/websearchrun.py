@@ -5,6 +5,7 @@
 
 import sys
 sys.path.append('../common/')
+sys.path.append('../3part/')
 
 from flask import *
 from flask.ext.cors import CORS

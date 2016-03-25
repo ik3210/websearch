@@ -8,6 +8,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 sys.path.append('../common/')
+sys.path.append('../3part/')
 
 import pymongo
 import time
